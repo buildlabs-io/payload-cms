@@ -1,0 +1,1616 @@
+{
+  "siteSettings": {
+    "general": {
+      "logo": "__logo__"
+    },
+    "popup": {
+      "delaySeconds": 0,
+      "repeatDays": 0,
+      "content": [
+        {
+          "blockType": "htmlEmbed",
+          "contentHtml": "<div style=\"position: relative; height: 22rem; width: 100%; overflow: hidden; border-radius: 1rem; direction: ltr;\">\n  <img\n    src=\"https://images.unsplash.com/photo-1745301558339-44eb3217d5da?q=80&w=1200&auto=format&fit=crop\"\n    alt=\"Designed living room\"\n    style=\"position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover;\"\n  />\n\n  <div style=\"position: absolute; inset: 0; background: rgba(20,15,10,0.55);\"></div>\n\n  <div style=\"position: relative; z-index: 1; display: flex; height: 100%; flex-direction: column; align-items: center; justify-content: center; gap: 1rem; padding: 1.5rem; text-align: center;\">\n    <h2 style=\"margin: 0; font-size: 1.75rem; font-weight: 700; color: white; font-family: Georgia, 'Times New Roman', serif;\">\n      Let's Plan Together\n    </h2>\n\n    <p style=\"margin: 0; max-width: 32rem; font-size: 1rem; line-height: 1.6; color: rgba(255,255,255,0.92);\">\n      Book an initial, no-commitment consultation.<br/> We'd love to learn about your project.\n    </p>\n\n    <a\n      href=\"/contact\"\n      style=\"display: inline-block; border-radius: 9999px; background: white; padding: 0.75rem 1.5rem; font-size: 0.95rem; font-weight: 600; color: black; text-decoration: none;\"\n    >\n      Book a Meeting\n    </a>\n  </div>\n</div>"
+        }
+      ]
+    },
+    "header": {
+      "navItems": [
+        {
+          "link": {
+            "type": "custom",
+            "label": "Home",
+            "url": "/"
+          }
+        },
+        {
+          "link": {
+            "type": "custom",
+            "label": "Services",
+            "url": "/#services"
+          }
+        },
+        {
+          "link": {
+            "type": "custom",
+            "label": "About",
+            "url": "/#about"
+          }
+        },
+        {
+          "link": {
+            "type": "custom",
+            "label": "Blog",
+            "url": "/blog"
+          }
+        },
+        {
+          "link": {
+            "type": "reference",
+            "label": "Book a Call",
+            "reference": {
+              "relationTo": "pages",
+              "value": "__contactPageId__"
+            }
+          }
+        }
+      ],
+      "blocks": [
+        {
+          "blockType": "headerIcons",
+          "items": [
+            {
+              "svg": {
+                "viewBox": "0 0 448 512",
+                "path": "M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"
+              },
+              "color": "green",
+              "link": {
+                "type": "custom",
+                "label": "WhatsApp",
+                "newTab": true,
+                "url": "https://wa.me/972501234567?text=Hi%2C%20I%20found%20you%20through%20the%20Studio%20Forma%20website%20and%20would%20love%20to%20hear%20more%20details."
+              }
+            }
+          ]
+        },
+        {
+          "blockType": "themeToggle"
+        }
+      ]
+    },
+    "footer": {
+      "blocks": [
+        {
+          "blockType": "footerNav",
+          "title": "Quick Links",
+          "links": [
+            {
+              "link": {
+                "type": "custom",
+                "label": "Admin",
+                "newTab": true,
+                "url": "/admin"
+              }
+            },
+            {
+              "link": {
+                "type": "custom",
+                "label": "Source Code",
+                "newTab": true,
+                "url": "https://github.com/buildlabs-io/payload-cms"
+              }
+            },
+            {
+              "link": {
+                "type": "custom",
+                "label": "Payload",
+                "newTab": true,
+                "url": "https://payloadcms.com/"
+              }
+            },
+            {
+              "link": {
+                "type": "custom",
+                "label": "Reset Data",
+                "url": "/reset-data"
+              }
+            }
+          ]
+        },
+        {
+          "blockType": "footerNav",
+          "title": "Policies",
+          "links": [
+            {
+              "link": {
+                "type": "custom",
+                "label": "Terms of Use",
+                "url": "/terms"
+              }
+            },
+            {
+              "link": {
+                "type": "custom",
+                "label": "Privacy Policy",
+                "url": "/privacy-policy"
+              }
+            }
+          ]
+        },
+        {
+          "blockType": "content",
+          "columns": [
+            {
+              "size": "full",
+              "richText": {
+                "__richText": "### Studio Forma\nBoutique architectural planning and interior design studio."
+              }
+            }
+          ]
+        },
+        {
+          "blockType": "footerIcons",
+          "title": "Get in Touch",
+          "items": [
+            {
+              "svg": {
+                "viewBox": "0 0 448 512",
+                "path": "M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+              },
+              "color": "rose",
+              "link": {
+                "type": "custom",
+                "label": "Instagram",
+                "newTab": true,
+                "url": "https://instagram.com/studio.forma"
+              },
+              "social": true
+            },
+            {
+              "svg": {
+                "viewBox": "0 0 320 512",
+                "path": "M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"
+              },
+              "color": "blue",
+              "link": {
+                "type": "custom",
+                "label": "Facebook",
+                "newTab": true,
+                "url": "https://facebook.com/studioforma"
+              },
+              "social": true
+            },
+            {
+              "svg": {
+                "viewBox": "0 0 448 512",
+                "path": "M448,209.91a210.06,210.06,0,0,1-122.77-39.25V349.38A162.55,162.55,0,1,1,185,188.31V278.2a74.62,74.62,0,1,0,52.23,71.18V0l88,0a121.18,121.18,0,0,0,1.86,22.17h0A122.18,122.18,0,0,0,381,102.39a121.43,121.43,0,0,0,67,20.14Z"
+              },
+              "color": "black",
+              "link": {
+                "type": "custom",
+                "label": "Tiktok",
+                "newTab": true,
+                "url": "https://tiktok.com/@studio.forma"
+              },
+              "social": true
+            },
+            {
+              "svg": {
+                "viewBox": "0 0 448 512",
+                "path": "M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"
+              },
+              "color": "blue",
+              "link": {
+                "type": "custom",
+                "label": "Linkedin",
+                "newTab": true,
+                "url": "https://linkedin.com/company/studio-forma"
+              },
+              "social": true
+            },
+            {
+              "svg": {
+                "viewBox": "0 0 576 512",
+                "path": "M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"
+              },
+              "color": "rose",
+              "link": {
+                "type": "custom",
+                "label": "Youtube",
+                "newTab": true,
+                "url": "https://youtube.com/@studioforma"
+              },
+              "social": true
+            },
+            {
+              "svg": {
+                "viewBox": "0 0 512 512",
+                "path": "M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"
+              },
+              "color": "black",
+              "link": {
+                "type": "custom",
+                "label": "X",
+                "newTab": true,
+                "url": "https://x.com/studioforma"
+              },
+              "social": true
+            },
+            {
+              "svg": {
+                "viewBox": "0 0 496 512",
+                "path": "M336.5 160C322 70.7 287.8 8 248 8s-74 62.7-88.5 152h177zM152 256c0 22.2 1.2 43.5 3.3 64h185.3c2.1-20.5 3.3-41.8 3.3-64s-1.2-43.5-3.3-64H155.3c-2.1 20.5-3.3 41.8-3.3 64zm324.7-96c-28.6-67.9-86.5-120.4-158-141.6 24.4 33.8 41.2 84.7 50 141.6h108zM177.2 18.4C105.8 39.6 47.8 92.1 19.3 160h108c8.7-56.9 25.5-107.8 49.9-141.6zM487.4 192H372.7c2.1 21 3.3 42.5 3.3 64s-1.2 43-3.3 64h114.6c5.5-20.5 8.6-41.8 8.6-64s-3.1-43.5-8.5-64zM120 256c0-21.5 1.2-43 3.3-64H8.6C3.2 212.5 0 233.8 0 256s3.2 43.5 8.6 64h114.6c-2-21-3.2-42.5-3.2-64zm39.5 96c14.5 89.3 48.7 152 88.5 152s74-62.7 88.5-152h-177zm159.3 141.6c71.4-21.2 129.4-73.7 158-141.6h-108c-8.8 56.9-25.6 107.8-50 141.6zM19.3 352c28.6 67.9 86.5 120.4 158 141.6-24.4-33.8-41.2-84.7-50-141.6h-108z"
+              },
+              "color": "blue",
+              "link": {
+                "type": "custom",
+                "label": "Website",
+                "newTab": true,
+                "url": "https://payloadcms.com/"
+              },
+              "social": false
+            },
+            {
+              "svg": {
+                "viewBox": "0 0 512 512",
+                "path": "M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z"
+              },
+              "color": "green",
+              "link": {
+                "type": "custom",
+                "label": "Phone",
+                "newTab": false,
+                "url": "tel:+972-3-555-0123"
+              },
+              "social": false
+            },
+            {
+              "svg": {
+                "viewBox": "0 0 512 512",
+                "path": "M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"
+              },
+              "color": "rose",
+              "link": {
+                "type": "custom",
+                "label": "Email",
+                "newTab": false,
+                "url": "mailto:hello@studioforma.co.il"
+              },
+              "social": false
+            }
+          ]
+        },
+        {
+          "blockType": "content",
+          "columns": [
+            {
+              "size": "full",
+              "richText": {
+                "__richText": "© 2026 Studio Forma. All rights reserved.\nThis website was built as a demo to showcase Payload CMS. The business name, team, projects, and contact details are not real."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "forms": [
+    {
+      "title": "Contact Form",
+      "confirmationType": "message",
+      "submitButtonLabel": "Submit",
+      "confirmationMessage": {
+        "root": {
+          "type": "root",
+          "children": [
+            {
+              "type": "heading",
+              "tag": "h2",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Your message has been sent! We'll be in touch soon."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "emails": [
+        {
+          "emailFrom": "\"Studio Forma\" <demo@payloadcms.com>",
+          "emailTo": "{{email}}",
+          "subject": "New inquiry from the Studio Forma website",
+          "message": {
+            "root": {
+              "type": "root",
+              "children": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Your inquiry was received successfully at Studio Forma. We'll be in touch soon. "
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "({{*:table}})"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "fields": [
+        {
+          "blockType": "text",
+          "blockName": "full-name",
+          "name": "full-name",
+          "label": "Full Name",
+          "required": true,
+          "width": 100
+        },
+        {
+          "blockType": "text",
+          "blockName": "phone",
+          "name": "phone",
+          "label": "Phone",
+          "required": true,
+          "width": 100
+        },
+        {
+          "blockType": "email",
+          "blockName": "email",
+          "name": "email",
+          "label": "Email",
+          "required": true,
+          "width": 100
+        },
+        {
+          "blockType": "select",
+          "blockName": "project-type",
+          "name": "project-type",
+          "label": "Project Type",
+          "required": true,
+          "width": 100,
+          "options": [
+            {
+              "label": "New-build Apartment",
+              "value": "new-apartment"
+            },
+            {
+              "label": "Full Renovation",
+              "value": "renovation"
+            },
+            {
+              "label": "Home Styling",
+              "value": "home-styling"
+            },
+            {
+              "label": "Office / Commercial",
+              "value": "office-commercial"
+            }
+          ]
+        },
+        {
+          "blockType": "textarea",
+          "blockName": "message",
+          "name": "message",
+          "label": "Additional Details",
+          "required": false,
+          "width": 100
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "slug": "home",
+      "_status": "published",
+      "title": "Home",
+      "hero": {
+        "type": "highImpact",
+        "media": "__HERO_IMAGE__",
+        "links": [
+          {
+            "link": {
+              "type": "custom",
+              "appearance": "default",
+              "label": "Book a Consultation",
+              "url": "/contact"
+            }
+          },
+          {
+            "link": {
+              "type": "custom",
+              "appearance": "outline",
+              "label": "Want a website like this? Get in touch",
+              "newTab": true,
+              "url": "https://studiopo.net/contact"
+            }
+          }
+        ],
+        "richText": {
+          "root": {
+            "type": "root",
+            "children": [
+              {
+                "tag": "h1",
+                "type": "heading",
+                "format": "",
+                "indent": 0,
+                "version": 1,
+                "children": [
+                  {
+                    "mode": "normal",
+                    "text": "We design spaces you'll love living in.",
+                    "type": "text",
+                    "style": "",
+                    "detail": 0,
+                    "format": 0,
+                    "version": 1
+                  }
+                ],
+                "direction": "ltr"
+              },
+              {
+                "type": "paragraph",
+                "format": "",
+                "indent": 0,
+                "version": 1,
+                "children": [
+                  {
+                    "mode": "normal",
+                    "text": "Custom architectural planning and interior design for luxury apartments, private homes, and offices.",
+                    "type": "text",
+                    "style": "",
+                    "detail": 0,
+                    "format": 0,
+                    "version": 1
+                  }
+                ],
+                "direction": "ltr",
+                "textStyle": "",
+                "textFormat": 0
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "link",
+                    "children": [
+                      {
+                        "type": "text",
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "You're welcome to log into the admin panel and play with it yourself →",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "fields": {
+                      "linkType": "custom",
+                      "newTab": true,
+                      "url": "/admin"
+                    },
+                    "format": "",
+                    "indent": 0,
+                    "version": 2
+                  }
+                ],
+                "direction": "ltr",
+                "format": "center",
+                "indent": 0,
+                "textFormat": 0,
+                "textStyle": ""
+              },
+              {
+                "type": "heading",
+                "children": [
+                  {
+                    "type": "text",
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "Demo Login",
+                    "version": 1
+                  }
+                ],
+                "direction": "ltr",
+                "format": "center",
+                "indent": 0,
+                "tag": "h3",
+                "version": 1
+              },
+              {
+                "type": "list",
+                "children": [
+                  {
+                    "type": "listitem",
+                    "children": [
+                      {
+                        "type": "text",
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "Email: admin@admin.com",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "value": 1,
+                    "version": 1
+                  },
+                  {
+                    "type": "listitem",
+                    "children": [
+                      {
+                        "type": "text",
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "Password: admin",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "value": 2,
+                    "version": 1
+                  }
+                ],
+                "direction": "ltr",
+                "format": "center",
+                "indent": 0,
+                "listType": "bullet",
+                "start": 1,
+                "tag": "ul",
+                "version": 1
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "mode": "normal",
+                    "text": "⚠ All content on this site - including the business name, team, images, and contact details - is demo content only, meant to showcase Payload CMS, and does not represent a real business.",
+                    "type": "text",
+                    "style": "",
+                    "detail": 0,
+                    "format": 0,
+                    "version": 1
+                  }
+                ],
+                "direction": "ltr",
+                "format": "center",
+                "indent": 0,
+                "textStyle": "",
+                "textFormat": 0
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "mode": "normal",
+                    "text": "🔄 Data looking broken? Someone may have already played with the site - ",
+                    "type": "text",
+                    "style": "",
+                    "detail": 0,
+                    "format": 0,
+                    "version": 1
+                  },
+                  {
+                    "type": "link",
+                    "children": [
+                      {
+                        "type": "text",
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "click here to reset the data",
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "fields": {
+                      "linkType": "custom",
+                      "newTab": false,
+                      "url": "/reset-data"
+                    },
+                    "format": "",
+                    "indent": 0,
+                    "version": 2
+                  },
+                  {
+                    "mode": "normal",
+                    "text": ".",
+                    "type": "text",
+                    "style": "",
+                    "detail": 0,
+                    "format": 0,
+                    "version": 1
+                  }
+                ],
+                "direction": "ltr",
+                "format": "center",
+                "indent": 0,
+                "textStyle": "",
+                "textFormat": 0
+              }
+            ],
+            "direction": "ltr",
+            "format": "",
+            "indent": 0,
+            "version": 1
+          }
+        }
+      },
+      "layout": [
+        {
+          "blockName": "About",
+          "blockType": "htmlEmbed",
+          "contentHtml": "<div id=\"about\" class=\"bg-muted\" style=\"padding: 4.5rem 1.5rem; direction: ltr; text-align: center;\">\n  <div style=\"max-width: 44rem; margin: 0 auto;\">\n    <h2 class=\"text-foreground\" style=\"margin: 0 0 1.1rem; font-size: 1.9rem; font-weight: 700; font-family: Georgia, 'Times New Roman', serif;\">About the Studio</h2>\n    <p class=\"text-muted-foreground\" style=\"margin: 0; font-size: 1.05rem; line-height: 1.9;\">\n      Studio Forma is a boutique architectural planning and interior design studio, guiding every project from the first idea to the final detail.\n      We believe a good space is one that truly serves the life lived in it - functional, precise, and inspiring every day.\n    </p>\n  </div>\n</div>"
+        },
+        {
+          "blockName": "Services",
+          "blockType": "htmlEmbed",
+          "contentHtml": "<div id=\"services\" style=\"padding: 4.5rem 1.5rem; direction: ltr;\">\n  <h2 class=\"text-foreground\" style=\"text-align: center; margin: 0 0 2.75rem; font-size: 1.9rem; font-weight: 700; font-family: Georgia, 'Times New Roman', serif;\">What We Do</h2>\n\n  <div style=\"display: flex; flex-wrap: wrap; gap: 1.75rem; justify-content: center; max-width: 72rem; margin: 0 auto;\">\n\n    <div class=\"bg-card border border-border\" style=\"flex: 1 1 280px; max-width: 360px; border-radius: 1rem; overflow: hidden; box-shadow: 0 1px 3px rgba(0,0,0,0.08);\">\n      <img src=\"https://images.unsplash.com/photo-1603901622056-0a5bee231395?q=80&w=900&auto=format&fit=crop\" alt=\"Planning and redesign\" style=\"width: 100%; height: 12rem; object-fit: cover; display: block;\" />\n      <div style=\"padding: 1.5rem;\">\n        <h3 class=\"text-foreground\" style=\"margin: 0 0 0.6rem; font-size: 1.15rem; font-weight: 700;\">Planning & Redesign</h3>\n        <p class=\"text-muted-foreground\" style=\"margin: 0; font-size: 0.95rem; line-height: 1.7;\">From the first sketch, through precise space planning, to selecting every material finish.</p>\n      </div>\n    </div>\n\n    <div class=\"bg-card border border-border\" style=\"flex: 1 1 280px; max-width: 360px; border-radius: 1rem; overflow: hidden; box-shadow: 0 1px 3px rgba(0,0,0,0.08);\">\n      <img src=\"https://images.unsplash.com/photo-1515948725-edac7b5bb0fc?q=80&w=900&auto=format&fit=crop\" alt=\"Home styling\" style=\"width: 100%; height: 12rem; object-fit: cover; display: block;\" />\n      <div style=\"padding: 1.5rem;\">\n        <h3 class=\"text-foreground\" style=\"margin: 0 0 0.6rem; font-size: 1.15rem; font-weight: 700;\">Home Styling</h3>\n        <p class=\"text-muted-foreground\" style=\"margin: 0; font-size: 0.95rem; line-height: 1.7;\">A full refresh for existing spaces - choosing lighting, textiles, furniture and art to create a distinct atmosphere.</p>\n      </div>\n    </div>\n\n    <div class=\"bg-card border border-border\" style=\"flex: 1 1 280px; max-width: 360px; border-radius: 1rem; overflow: hidden; box-shadow: 0 1px 3px rgba(0,0,0,0.08);\">\n      <img src=\"https://images.unsplash.com/photo-1706689656095-168768dc20a5?q=80&w=900&auto=format&fit=crop\" alt=\"Office and commercial design\" style=\"width: 100%; height: 12rem; object-fit: cover; display: block;\" />\n      <div style=\"padding: 1.5rem;\">\n        <h3 class=\"text-foreground\" style=\"margin: 0 0 0.6rem; font-size: 1.15rem; font-weight: 700;\">Office & Commercial Design</h3>\n        <p class=\"text-muted-foreground\" style=\"margin: 0; font-size: 0.95rem; line-height: 1.7;\">Creating an inspiring work environment that reflects your brand's character and DNA.</p>\n      </div>\n    </div>\n\n  </div>\n</div>"
+        },
+        {
+          "blockName": "Gallery",
+          "blockType": "gallery",
+          "title": "Project Gallery",
+          "images": [
+            {
+              "image": "__GALLERY_IMAGE_1__"
+            },
+            {
+              "image": "__GALLERY_IMAGE_2__"
+            },
+            {
+              "image": "__GALLERY_IMAGE_3__"
+            },
+            {
+              "image": "__GALLERY_IMAGE_4__"
+            }
+          ]
+        },
+        {
+          "blockName": "Stats",
+          "blockType": "htmlEmbed",
+          "contentHtml": "<div class=\"bg-primary\" style=\"padding: 3.5rem 1.5rem; direction: ltr;\">\n  <div style=\"display: flex; flex-wrap: wrap; gap: 2rem; justify-content: center; max-width: 60rem; margin: 0 auto; text-align: center;\">\n    <div style=\"flex: 1 1 160px;\">\n      <span class=\"text-primary-foreground\" style=\"display: block; font-size: 2.75rem; font-weight: 700; font-family: Georgia, serif;\">120+</span>\n      <span class=\"text-primary-foreground\" style=\"display: block; margin-top: 0.4rem; font-size: 0.95rem; opacity: 0.72;\">Projects planned and designed</span>\n    </div>\n    <div style=\"flex: 1 1 160px;\">\n      <span class=\"text-primary-foreground\" style=\"display: block; font-size: 2.75rem; font-weight: 700; font-family: Georgia, serif;\">15</span>\n      <span class=\"text-primary-foreground\" style=\"display: block; margin-top: 0.4rem; font-size: 0.95rem; opacity: 0.72;\">Years of experience</span>\n    </div>\n    <div style=\"flex: 1 1 160px;\">\n      <span class=\"text-primary-foreground\" style=\"display: block; font-size: 2.75rem; font-weight: 700; font-family: Georgia, serif;\">100%</span>\n      <span class=\"text-primary-foreground\" style=\"display: block; margin-top: 0.4rem; font-size: 0.95rem; opacity: 0.72;\">Budget-matched delivery</span>\n    </div>\n  </div>\n</div>"
+        },
+        {
+          "blockName": "Archive Block",
+          "blockType": "archive",
+          "categories": [],
+          "introContent": {
+            "__richText": "### From Our Blog\nTips, guides and inspiration from the world of planning and design - from the Studio Forma team."
+          },
+          "populateBy": "collection",
+          "relationTo": "blog",
+          "displayMode": "grid"
+        },
+        {
+          "blockName": "FAQs",
+          "blockType": "faqs",
+          "title": "Frequently Asked Questions",
+          "faqs": [
+            {
+              "question": "How long does an average design process take?",
+              "answer": "A home styling project usually takes between 4 to 8 weeks, while planning and redesigning a full apartment ranges from 3 to 6 months."
+            },
+            {
+              "question": "Do you work with your own suppliers and tradespeople?",
+              "answer": "Yes, we have a network of leading tradespeople (carpenters, electricians, contractors) who work with us in full collaboration, but we're also happy to work with your own suppliers."
+            },
+            {
+              "question": "How is the project budget determined?",
+              "answer": "At our first introductory meeting we define a clear budget framework. Every material and furniture choice is then made to fully match the budget set in advance."
+            }
+          ]
+        },
+        {
+          "blockName": "CTA",
+          "blockType": "cta",
+          "links": [
+            {
+              "link": {
+                "type": "custom",
+                "appearance": "default",
+                "label": "Book a Consultation",
+                "url": "/contact"
+              }
+            }
+          ],
+          "richText": {
+            "__richText": "### Ready to start your next project?\nBook a no-commitment consultation call and let's design the space you've always wanted, together."
+          }
+        }
+      ],
+      "meta": {
+        "title": "Studio Forma | Boutique Interior Design & Architecture",
+        "description": "Custom architectural planning and interior design for luxury apartments, private homes, and offices. 120+ projects and 15 years of experience.",
+        "image": "__META_IMAGE__"
+      }
+    },
+    {
+      "slug": "contact",
+      "_status": "published",
+      "title": "Contact",
+      "hero": {
+        "type": "none"
+      },
+      "meta": {
+        "title": "Contact Us | Studio Forma",
+        "description": "Feel free to reach out to Studio Forma for a consultation, an introductory call, or any question about your project.",
+        "image": "__META_IMAGE__"
+      },
+      "layout": [
+        {
+          "blockType": "formBlock",
+          "enableIntro": true,
+          "form": "__FORM__",
+          "introContent": {
+            "__richText": "## Let's talk about your next project\nLeave your details and we'll get back to you to schedule an introductory meeting.\nPlease note: this is a demo form only, meant to showcase Payload CMS - your inquiry will not actually be processed."
+          }
+        }
+      ]
+    },
+    {
+      "slug": "blog",
+      "_status": "published",
+      "title": "Blog",
+      "hero": {
+        "type": "none"
+      },
+      "layout": [
+        {
+          "blockName": "Archive Block",
+          "blockType": "archive",
+          "introContent": {
+            "__richText": "# Insights & Articles\nTips, guides and inspiration from the world of planning and design - from the Studio Forma team."
+          },
+          "populateBy": "collection",
+          "relationTo": "blog",
+          "displayMode": "grid"
+        }
+      ],
+      "meta": {
+        "title": "Insights & Articles | Studio Forma",
+        "description": "Tips, guides and inspiration from the world of planning and design - from the Studio Forma team.",
+        "image": "__META_IMAGE__"
+      }
+    },
+    {
+      "slug": "terms",
+      "_status": "published",
+      "title": "Terms of Use",
+      "hero": {
+        "type": "lowImpact",
+        "richText": {
+          "root": {
+            "type": "root",
+            "children": [
+              {
+                "type": "heading",
+                "children": [
+                  {
+                    "type": "text",
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "Terms of Use",
+                    "version": 1
+                  }
+                ],
+                "direction": "ltr",
+                "format": "center",
+                "indent": 0,
+                "tag": "h1",
+                "version": 1
+              }
+            ],
+            "direction": "ltr",
+            "format": "",
+            "indent": 0,
+            "version": 1
+          }
+        }
+      },
+      "layout": [
+        {
+          "blockName": "Terms of use",
+          "blockType": "htmlEmbed",
+          "contentHtml": "<section dir=\"ltr\" style=\"max-width: 48rem; margin: 0 auto; padding: 0 1rem 4rem; line-height: 1.8;\">\n  <p><strong>Note:</strong> this site was built as a demo to showcase Payload CMS, and this page is sample content only and does not constitute real legal terms of use.</p>\n  <p>Use of this site is subject to standard terms: content is provided \"AS IS,\" and site content may not be copied, distributed, or used commercially without permission.</p>\n  <p>For questions, contact us at <a href=\"mailto:hello@studioforma.co.il\" style=\"text-decoration: underline;\">hello@studioforma.co.il</a>.</p>\n</section>"
+        }
+      ],
+      "meta": {
+        "title": "Terms of Use | Studio Forma",
+        "description": "The terms of use for the Studio Forma demo site.",
+        "image": "__META_IMAGE__"
+      }
+    },
+    {
+      "slug": "privacy-policy",
+      "_status": "published",
+      "title": "Privacy Policy",
+      "hero": {
+        "type": "lowImpact",
+        "richText": {
+          "root": {
+            "type": "root",
+            "children": [
+              {
+                "type": "heading",
+                "children": [
+                  {
+                    "type": "text",
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "Privacy Policy",
+                    "version": 1
+                  }
+                ],
+                "direction": "ltr",
+                "format": "center",
+                "indent": 0,
+                "tag": "h1",
+                "version": 1
+              }
+            ],
+            "direction": "ltr",
+            "format": "",
+            "indent": 0,
+            "version": 1
+          }
+        }
+      },
+      "layout": [
+        {
+          "blockName": "Privacy policy",
+          "blockType": "htmlEmbed",
+          "contentHtml": "<section dir=\"ltr\" style=\"max-width: 48rem; margin: 0 auto; padding: 0 1rem 4rem; line-height: 1.8;\">\n  <p><strong>Note:</strong> this site was built as a demo to showcase Payload CMS, and this page is sample content only and does not represent a real privacy policy.</p>\n  <p>In a real production environment, this is where we'd detail what information is collected from users (for example, through the contact form), how it's stored, and what it's used for.</p>\n  <p>For questions, contact us at <a href=\"mailto:hello@studioforma.co.il\" style=\"text-decoration: underline;\">hello@studioforma.co.il</a>.</p>\n</section>"
+        }
+      ],
+      "meta": {
+        "title": "Privacy Policy | Studio Forma",
+        "description": "The privacy policy for the Studio Forma demo site.",
+        "image": "__META_IMAGE__"
+      }
+    },
+    {
+      "slug": "reset-data",
+      "_status": "published",
+      "title": "Reset Demo Data",
+      "hero": {
+        "type": "lowImpact",
+        "richText": {
+          "root": {
+            "type": "root",
+            "children": [
+              {
+                "type": "heading",
+                "children": [
+                  {
+                    "type": "text",
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "Reset Demo Data",
+                    "version": 1
+                  }
+                ],
+                "direction": "ltr",
+                "format": "center",
+                "indent": 0,
+                "tag": "h1",
+                "version": 1
+              }
+            ],
+            "direction": "ltr",
+            "format": "",
+            "indent": 0,
+            "version": 1
+          }
+        }
+      },
+      "layout": [
+        {
+          "blockName": "Reset explanation",
+          "blockType": "htmlEmbed",
+          "contentHtml": "<section dir=\"ltr\" style=\"max-width: 40rem; margin: 0 auto; padding: 0 1rem 4rem; line-height: 1.8; text-align: center;\">\n  <p>This site is an open demo anyone can access - anyone who logs into the admin panel (<code>admin@admin.com</code> / <code>admin</code>) can edit, delete, or change content.</p>\n  <p>If the data looks broken or unfamiliar, you can reset the entire site back to its original state with a single click.</p>\n  <p style=\"background: #fdf2e9; border: 1px solid #f0d9bd; border-radius: 0.75rem; padding: 1rem 1.25rem; color: #7c4a16;\"><strong>Note:</strong> this action will erase every change that was made and restore all content (pages, articles, settings) to the default data. It cannot be undone, and may take about a minute to complete.</p>\n  <p>\n    <a\n      href=\"https://cms.url-link.org/preview/reset\"\n      target=\"_blank\"\n      rel=\"noopener noreferrer\"\n      style=\"display: inline-block; margin-top: 1rem; border-radius: 9999px; background: #231f1c; color: white; padding: 0.85rem 2rem; font-size: 1rem; font-weight: 600; text-decoration: none;\"\n    >\n      Reset the Data Now\n    </a>\n  </p>\n</section>"
+        }
+      ],
+      "meta": {
+        "title": "Reset Demo Data | Studio Forma",
+        "description": "Reset the Studio Forma demo site's database back to its original state.",
+        "image": "__META_IMAGE__"
+      }
+    }
+  ],
+  "blog": [
+    {
+      "comments": [
+        {
+          "authorName": "Sarah Levy",
+          "authorEmail": "sarah.levy@example.com",
+          "body": "I totally recognized myself in the first mistake... our whole living room is lit by one bulb in the middle of the ceiling. Going to book a consult with you."
+        },
+        {
+          "authorName": "Ethan Mizrahi",
+          "authorEmail": "ethan.m@example.com",
+          "body": "The point about color temperature is so important and not talked about enough. We switched every bulb to the same tone and the living room looks so much more cohesive."
+        }
+      ],
+      "slug": "living-room-lighting-mistakes",
+      "_status": "published",
+      "author": "Maya Segev, Lead Interior Designer",
+      "readTime": 3,
+      "title": "5 Lighting Mistakes Everyone Makes in Living Room Design",
+      "heroImage": "__HERO_IMAGE__",
+      "meta": {
+        "description": "The right lighting can make a space feel bigger and completely transform its mood. Here's what you need to know before choosing light fixtures.",
+        "image": "__META_IMAGE__",
+        "title": "5 Lighting Mistakes Everyone Makes in Living Room Design"
+      },
+      "content": {
+        "root": {
+          "type": "root",
+          "children": [
+            {
+              "type": "block",
+              "fields": {
+                "blockName": "Disclaimer",
+                "blockType": "banner",
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "children": [
+                          {
+                            "type": "text",
+                            "detail": 0,
+                            "format": 0,
+                            "mode": "normal",
+                            "style": "",
+                            "text": "This article's content was written for demo purposes only, as part of a sample site built with Payload CMS.",
+                            "version": 1
+                          }
+                        ],
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "textFormat": 0,
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1
+                  }
+                },
+                "style": "info"
+              },
+              "format": "",
+              "version": 2
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "type": "text",
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "The right lighting can make a space feel bigger and completely transform its mood. Here's what you need to know before choosing light fixtures.",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "textFormat": 0,
+              "version": 1
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "type": "text",
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Lighting is one of the most influential elements in how a home feels, yet many leave it until the very end of the process - and that's exactly the first mistake.",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "textFormat": 0,
+              "version": 1
+            },
+            {
+              "type": "heading",
+              "children": [
+                {
+                  "type": "text",
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "1. Relying on a Single Light Source",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "tag": "h2",
+              "version": 1
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "type": "text",
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "A single fixture in the middle of the ceiling creates harsh shadows and a flat feeling. Combining ambient, task, and decorative lighting is what gives a living room depth and character.",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "textFormat": 0,
+              "version": 1
+            },
+            {
+              "type": "heading",
+              "children": [
+                {
+                  "type": "text",
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "2. Inconsistent Color Temperature",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "tag": "h2",
+              "version": 1
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "type": "text",
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Mixing warm and cool bulbs in the same space creates visual discomfort. We always recommend staying within the same color temperature (typically 2700K-3000K) across every fixture in the room.",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "textFormat": 0,
+              "version": 1
+            },
+            {
+              "type": "heading",
+              "children": [
+                {
+                  "type": "text",
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "3. No Dimming (or the Wrong Kind)",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "tag": "h2",
+              "version": 1
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "type": "text",
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Proper dimming lets you match the mood to the time of day and how the space is used. Installing quality dimmers at the planning stage saves a major headache later on.",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "textFormat": 0,
+              "version": 1
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "version": 1
+        }
+      },
+      "relatedArticles": []
+    },
+    {
+      "comments": [
+        {
+          "authorName": "Ronit Avergil",
+          "authorEmail": "ronit.a@example.com",
+          "body": "We were really torn between marble and quartz and this article helped us decide. Ended up going with quartz for the low maintenance."
+        },
+        {
+          "authorName": "Yuval Sharon",
+          "authorEmail": "yuval.sharon@example.com",
+          "body": "Thanks for the clear explanation of porcelain granite, I had no idea it could look so close to natural marble."
+        }
+      ],
+      "slug": "choosing-kitchen-materials",
+      "_status": "published",
+      "author": "Maya Segev, Lead Interior Designer",
+      "readTime": 4,
+      "title": "How to Choose Kitchen Materials That Last for Years",
+      "heroImage": "__HERO_IMAGE__",
+      "meta": {
+        "description": "From natural stone to porcelain granite surfaces - a comprehensive look at durability, maintenance, and design for the modern kitchen.",
+        "image": "__META_IMAGE__",
+        "title": "How to Choose Kitchen Materials That Last for Years"
+      },
+      "content": {
+        "root": {
+          "type": "root",
+          "children": [
+            {
+              "type": "block",
+              "fields": {
+                "blockName": "Disclaimer",
+                "blockType": "banner",
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "children": [
+                          {
+                            "type": "text",
+                            "detail": 0,
+                            "format": 0,
+                            "mode": "normal",
+                            "style": "",
+                            "text": "This article's content was written for demo purposes only, as part of a sample site built with Payload CMS.",
+                            "version": 1
+                          }
+                        ],
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "textFormat": 0,
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1
+                  }
+                },
+                "style": "info"
+              },
+              "format": "",
+              "version": 2
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "type": "text",
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "From natural stone to porcelain granite surfaces - a comprehensive look at durability, maintenance, and design for the modern kitchen.",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "textFormat": 0,
+              "version": 1
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "type": "text",
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "The kitchen is the heart of the home, and the materials you choose need to withstand tough daily use alongside a luxurious look.",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "textFormat": 0,
+              "version": 1
+            },
+            {
+              "type": "heading",
+              "children": [
+                {
+                  "type": "text",
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Natural Stone",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "tag": "h2",
+              "version": 1
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "type": "text",
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Marble offers a unique, luxurious look with no two slabs alike, but it's relatively porous and needs periodic sealing to prevent staining from oil, wine, and acids.",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "textFormat": 0,
+              "version": 1
+            },
+            {
+              "type": "heading",
+              "children": [
+                {
+                  "type": "text",
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Porcelain Granite",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "tag": "h2",
+              "version": 1
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "type": "text",
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Porcelain surfaces resist scratches, heat, and stains almost completely, and now come in patterns that convincingly mimic marble - a great combination of aesthetics and low maintenance.",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "textFormat": 0,
+              "version": 1
+            },
+            {
+              "type": "heading",
+              "children": [
+                {
+                  "type": "text",
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Quartz (Engineered Stone)",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "tag": "h2",
+              "version": 1
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "type": "text",
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Quartz offers high durability and uniform color, suiting kitchens that want a combination of luxury and simple, long-lasting maintenance.",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "textFormat": 0,
+              "version": 1
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "version": 1
+        }
+      },
+      "relatedArticles": []
+    },
+    {
+      "comments": [
+        {
+          "authorName": "Neta Bar",
+          "authorEmail": "neta.bar@example.com",
+          "body": "The principle of planning circulation before choosing furniture is so obvious once you hear it, but nobody thinks of it upfront. Great insight."
+        }
+      ],
+      "slug": "open-space-planning-principles",
+      "_status": "published",
+      "author": "Daniel Or, Principal Architect",
+      "readTime": 3,
+      "title": "3 Principles for Open-Space Planning That Actually Works",
+      "heroImage": "__HERO_IMAGE__",
+      "meta": {
+        "description": "An open floor plan isn't just about removing a wall - it's precise planning of movement, function, and lighting working together.",
+        "image": "__META_IMAGE__",
+        "title": "3 Principles for Open-Space Planning That Actually Works"
+      },
+      "content": {
+        "root": {
+          "type": "root",
+          "children": [
+            {
+              "type": "block",
+              "fields": {
+                "blockName": "Disclaimer",
+                "blockType": "banner",
+                "content": {
+                  "root": {
+                    "type": "root",
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "children": [
+                          {
+                            "type": "text",
+                            "detail": 0,
+                            "format": 0,
+                            "mode": "normal",
+                            "style": "",
+                            "text": "This article's content was written for demo purposes only, as part of a sample site built with Payload CMS.",
+                            "version": 1
+                          }
+                        ],
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "textFormat": 0,
+                        "version": 1
+                      }
+                    ],
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1
+                  }
+                },
+                "style": "info"
+              },
+              "format": "",
+              "version": 2
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "type": "text",
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "An open floor plan isn't just about removing a wall - it's precise planning of movement, function, and lighting working together.",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "textFormat": 0,
+              "version": 1
+            },
+            {
+              "type": "heading",
+              "children": [
+                {
+                  "type": "text",
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "1. Visual Separation Without Walls",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "tag": "h2",
+              "version": 1
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "type": "text",
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Furniture, rugs, and subtle ceiling height changes can define \"rooms\" within an open space, without giving up the sense of flow and air.",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "textFormat": 0,
+              "version": 1
+            },
+            {
+              "type": "heading",
+              "children": [
+                {
+                  "type": "text",
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "2. Consistent Materials and Lighting",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "tag": "h2",
+              "version": 1
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "type": "text",
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "When every zone in the space speaks the same material language and color temperature, the transition between the seating area, dining area, and kitchen feels natural and planned.",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "textFormat": 0,
+              "version": 1
+            },
+            {
+              "type": "heading",
+              "children": [
+                {
+                  "type": "text",
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "3. Planning Circulation First",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "tag": "h2",
+              "version": 1
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "type": "text",
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Before choosing furniture, it's important to map the natural \"walking paths\" through the space - that's ultimately what determines whether a home feels spacious or cramped, even in a relatively small apartment.",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "textFormat": 0,
+              "version": 1
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "version": 1
+        }
+      },
+      "relatedArticles": []
+    }
+  ]
+}
