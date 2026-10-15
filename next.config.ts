@@ -43,7 +43,7 @@ const nextConfig: NextConfig = {
     ignoreBuildErrors: false,
   },
   images: {
-    unoptimized: true,
+    unoptimized: false,
     dangerouslyAllowLocalIP: process.env.NODE_ENV === "development",
     formats: ["image/avif", "image/webp"],
     remotePatterns: remotePatternsFromConfig(),

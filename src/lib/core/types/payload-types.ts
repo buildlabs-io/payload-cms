@@ -13,53 +13,53 @@
  * via the `definition` "supportedTimezones".
  */
 export type SupportedTimezones =
-  | 'Pacific/Midway'
-  | 'Pacific/Niue'
-  | 'Pacific/Honolulu'
-  | 'Pacific/Rarotonga'
-  | 'America/Anchorage'
-  | 'Pacific/Gambier'
-  | 'America/Los_Angeles'
-  | 'America/Tijuana'
-  | 'America/Denver'
-  | 'America/Phoenix'
-  | 'America/Chicago'
-  | 'America/Guatemala'
-  | 'America/New_York'
-  | 'America/Bogota'
-  | 'America/Caracas'
-  | 'America/Santiago'
-  | 'America/Buenos_Aires'
-  | 'America/Sao_Paulo'
-  | 'Atlantic/South_Georgia'
-  | 'Atlantic/Azores'
-  | 'Atlantic/Cape_Verde'
-  | 'Europe/London'
-  | 'Europe/Berlin'
-  | 'Africa/Lagos'
-  | 'Europe/Athens'
-  | 'Africa/Cairo'
-  | 'Europe/Moscow'
-  | 'Asia/Riyadh'
-  | 'Asia/Dubai'
-  | 'Asia/Baku'
-  | 'Asia/Karachi'
-  | 'Asia/Tashkent'
-  | 'Asia/Calcutta'
-  | 'Asia/Dhaka'
-  | 'Asia/Almaty'
-  | 'Asia/Jakarta'
-  | 'Asia/Bangkok'
-  | 'Asia/Shanghai'
-  | 'Asia/Singapore'
-  | 'Asia/Tokyo'
-  | 'Asia/Seoul'
-  | 'Australia/Brisbane'
-  | 'Australia/Sydney'
-  | 'Pacific/Guam'
-  | 'Pacific/Noumea'
-  | 'Pacific/Auckland'
-  | 'Pacific/Fiji';
+  | "Pacific/Midway"
+  | "Pacific/Niue"
+  | "Pacific/Honolulu"
+  | "Pacific/Rarotonga"
+  | "America/Anchorage"
+  | "Pacific/Gambier"
+  | "America/Los_Angeles"
+  | "America/Tijuana"
+  | "America/Denver"
+  | "America/Phoenix"
+  | "America/Chicago"
+  | "America/Guatemala"
+  | "America/New_York"
+  | "America/Bogota"
+  | "America/Caracas"
+  | "America/Santiago"
+  | "America/Buenos_Aires"
+  | "America/Sao_Paulo"
+  | "Atlantic/South_Georgia"
+  | "Atlantic/Azores"
+  | "Atlantic/Cape_Verde"
+  | "Europe/London"
+  | "Europe/Berlin"
+  | "Africa/Lagos"
+  | "Europe/Athens"
+  | "Africa/Cairo"
+  | "Europe/Moscow"
+  | "Asia/Riyadh"
+  | "Asia/Dubai"
+  | "Asia/Baku"
+  | "Asia/Karachi"
+  | "Asia/Tashkent"
+  | "Asia/Calcutta"
+  | "Asia/Dhaka"
+  | "Asia/Almaty"
+  | "Asia/Jakarta"
+  | "Asia/Bangkok"
+  | "Asia/Shanghai"
+  | "Asia/Singapore"
+  | "Asia/Tokyo"
+  | "Asia/Seoul"
+  | "Australia/Brisbane"
+  | "Australia/Sydney"
+  | "Pacific/Guam"
+  | "Pacific/Noumea"
+  | "Pacific/Auckland"
+  | "Pacific/Fiji";
 
 export interface Config {
   auth: {
@@ -69,49 +69,53 @@ export interface Config {
   collections: {
     pages: Page;
     blog: Blog;
-    'blog-comments': BlogComment;
+    "blog-comments": BlogComment;
     media: Media;
-    'seo-media': SeoMedia;
-    'gallery-media': GalleryMedia;
+    "seo-media": SeoMedia;
+    "gallery-media": GalleryMedia;
     forms: Form;
-    'form-submissions': FormSubmission;
+    "form-submissions": FormSubmission;
     redirects: Redirect;
     users: User;
-    'payload-kv': PayloadKv;
-    'payload-locked-documents': PayloadLockedDocument;
-    'payload-preferences': PayloadPreference;
-    'payload-migrations': PayloadMigration;
+    "payload-kv": PayloadKv;
+    "payload-locked-documents": PayloadLockedDocument;
+    "payload-preferences": PayloadPreference;
+    "payload-migrations": PayloadMigration;
   };
   collectionsJoins: {
     blog: {
-      comments: 'blog-comments';
+      comments: "blog-comments";
     };
   };
   collectionsSelect: {
     pages: PagesSelect<false> | PagesSelect<true>;
     blog: BlogSelect<false> | BlogSelect<true>;
-    'blog-comments': BlogCommentsSelect<false> | BlogCommentsSelect<true>;
+    "blog-comments": BlogCommentsSelect<false> | BlogCommentsSelect<true>;
     media: MediaSelect<false> | MediaSelect<true>;
-    'seo-media': SeoMediaSelect<false> | SeoMediaSelect<true>;
-    'gallery-media': GalleryMediaSelect<false> | GalleryMediaSelect<true>;
+    "seo-media": SeoMediaSelect<false> | SeoMediaSelect<true>;
+    "gallery-media": GalleryMediaSelect<false> | GalleryMediaSelect<true>;
     forms: FormsSelect<false> | FormsSelect<true>;
-    'form-submissions': FormSubmissionsSelect<false> | FormSubmissionsSelect<true>;
+    "form-submissions":
+      FormSubmissionsSelect<false> | FormSubmissionsSelect<true>;
     redirects: RedirectsSelect<false> | RedirectsSelect<true>;
     users: UsersSelect<false> | UsersSelect<true>;
-    'payload-kv': PayloadKvSelect<false> | PayloadKvSelect<true>;
-    'payload-locked-documents': PayloadLockedDocumentsSelect<false> | PayloadLockedDocumentsSelect<true>;
-    'payload-preferences': PayloadPreferencesSelect<false> | PayloadPreferencesSelect<true>;
-    'payload-migrations': PayloadMigrationsSelect<false> | PayloadMigrationsSelect<true>;
+    "payload-kv": PayloadKvSelect<false> | PayloadKvSelect<true>;
+    "payload-locked-documents":
+      PayloadLockedDocumentsSelect<false> | PayloadLockedDocumentsSelect<true>;
+    "payload-preferences":
+      PayloadPreferencesSelect<false> | PayloadPreferencesSelect<true>;
+    "payload-migrations":
+      PayloadMigrationsSelect<false> | PayloadMigrationsSelect<true>;
   };
   db: {
     defaultIDType: number;
   };
   fallbackLocale: null;
   globals: {
-    'site-settings': SiteSetting;
+    "site-settings": SiteSetting;
   };
   globalsSelect: {
-    'site-settings': SiteSettingsSelect<false> | SiteSettingsSelect<true>;
+    "site-settings": SiteSettingsSelect<false> | SiteSettingsSelect<true>;
   };
   locale: null;
   widgets: {
@@ -149,7 +153,7 @@ export interface Page {
   id: number;
   title: string;
   hero: {
-    type: 'none' | 'highImpact' | 'mediumImpact' | 'lowImpact';
+    type: "none" | "highImpact" | "mediumImpact" | "lowImpact";
     richText?: {
       root: {
         type: string;
@@ -158,8 +162,8 @@ export interface Page {
           version: number;
           [k: string]: unknown;
         }[];
-        direction: ('ltr' | 'rtl') | null;
-        format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+        direction: ("ltr" | "rtl") | null;
+        format: "left" | "start" | "center" | "right" | "end" | "justify" | "";
         indent: number;
         version: number;
       };
@@ -168,15 +172,15 @@ export interface Page {
     links?:
       | {
           link: {
-            type?: ('reference' | 'custom') | null;
+            type?: ("reference" | "custom") | null;
             newTab?: boolean | null;
             reference?:
               | ({
-                  relationTo: 'pages';
+                  relationTo: "pages";
                   value: number | Page;
                 } | null)
               | ({
-                  relationTo: 'blog';
+                  relationTo: "blog";
                   value: number | Blog;
                 } | null);
             url?: string | null;
@@ -184,7 +188,7 @@ export interface Page {
             /**
              * Choose how the link should be rendered.
              */
-            appearance?: ('default' | 'outline') | null;
+            appearance?: ("default" | "outline") | null;
           };
           id?: string | null;
         }[]
@@ -217,7 +221,7 @@ export interface Page {
   slug: string;
   updatedAt: string;
   createdAt: string;
-  _status?: ('draft' | 'published') | null;
+  _status?: ("draft" | "published") | null;
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
@@ -235,8 +239,8 @@ export interface Blog {
         version: number;
         [k: string]: unknown;
       }[];
-      direction: ('ltr' | 'rtl') | null;
-      format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+      direction: ("ltr" | "rtl") | null;
+      format: "left" | "start" | "center" | "right" | "end" | "justify" | "";
       indent: number;
       version: number;
     };
@@ -269,7 +273,7 @@ export interface Blog {
   slug: string;
   updatedAt: string;
   createdAt: string;
-  _status?: ('draft' | 'published') | null;
+  _status?: ("draft" | "published") | null;
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
@@ -359,8 +363,8 @@ export interface CallToActionBlock {
         version: number;
         [k: string]: unknown;
       }[];
-      direction: ('ltr' | 'rtl') | null;
-      format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+      direction: ("ltr" | "rtl") | null;
+      format: "left" | "start" | "center" | "right" | "end" | "justify" | "";
       indent: number;
       version: number;
     };
@@ -369,15 +373,15 @@ export interface CallToActionBlock {
   links?:
     | {
         link: {
-          type?: ('reference' | 'custom') | null;
+          type?: ("reference" | "custom") | null;
           newTab?: boolean | null;
           reference?:
             | ({
-                relationTo: 'pages';
+                relationTo: "pages";
                 value: number | Page;
               } | null)
             | ({
-                relationTo: 'blog';
+                relationTo: "blog";
                 value: number | Blog;
               } | null);
           url?: string | null;
@@ -385,14 +389,14 @@ export interface CallToActionBlock {
           /**
            * Choose how the link should be rendered.
            */
-          appearance?: ('default' | 'outline') | null;
+          appearance?: ("default" | "outline") | null;
         };
         id?: string | null;
       }[]
     | null;
   id?: string | null;
   blockName?: string | null;
-  blockType: 'cta';
+  blockType: "cta";
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
@@ -401,7 +405,7 @@ export interface CallToActionBlock {
 export interface ContentBlock {
   columns?:
     | {
-        size?: ('oneThird' | 'half' | 'twoThirds' | 'full') | null;
+        size?: ("oneThird" | "half" | "twoThirds" | "full") | null;
         richText?: {
           root: {
             type: string;
@@ -410,8 +414,9 @@ export interface ContentBlock {
               version: number;
               [k: string]: unknown;
             }[];
-            direction: ('ltr' | 'rtl') | null;
-            format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+            direction: ("ltr" | "rtl") | null;
+            format:
+              "left" | "start" | "center" | "right" | "end" | "justify" | "";
             indent: number;
             version: number;
           };
@@ -419,15 +424,15 @@ export interface ContentBlock {
         } | null;
         enableLink?: boolean | null;
         link?: {
-          type?: ('reference' | 'custom') | null;
+          type?: ("reference" | "custom") | null;
           newTab?: boolean | null;
           reference?:
             | ({
-                relationTo: 'pages';
+                relationTo: "pages";
                 value: number | Page;
               } | null)
             | ({
-                relationTo: 'blog';
+                relationTo: "blog";
                 value: number | Blog;
               } | null);
           url?: string | null;
@@ -435,14 +440,14 @@ export interface ContentBlock {
           /**
            * Choose how the link should be rendered.
            */
-          appearance?: ('default' | 'outline') | null;
+          appearance?: ("default" | "outline") | null;
         };
         id?: string | null;
       }[]
     | null;
   id?: string | null;
   blockName?: string | null;
-  blockType: 'content';
+  blockType: "content";
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
@@ -452,7 +457,7 @@ export interface MediaBlock {
   media: number | Media;
   id?: string | null;
   blockName?: string | null;
-  blockType: 'mediaBlock';
+  blockType: "mediaBlock";
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
@@ -467,31 +472,31 @@ export interface ArchiveBlock {
         version: number;
         [k: string]: unknown;
       }[];
-      direction: ('ltr' | 'rtl') | null;
-      format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+      direction: ("ltr" | "rtl") | null;
+      format: "left" | "start" | "center" | "right" | "end" | "justify" | "";
       indent: number;
       version: number;
     };
     [k: string]: unknown;
   };
-  populateBy?: ('collection' | 'selection') | null;
-  displayMode: 'grid' | 'autoScroll';
-  relationTo?: ('blog' | 'pages') | null;
+  populateBy?: ("collection" | "selection") | null;
+  displayMode: "grid" | "autoScroll";
+  relationTo?: ("blog" | "pages") | null;
   selectedDocs?:
     | (
         | {
-            relationTo: 'blog';
+            relationTo: "blog";
             value: number | Blog;
           }
         | {
-            relationTo: 'pages';
+            relationTo: "pages";
             value: number | Page;
           }
       )[]
     | null;
   id?: string | null;
   blockName?: string | null;
-  blockType: 'archive';
+  blockType: "archive";
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
@@ -508,8 +513,8 @@ export interface FormBlock {
         version: number;
         [k: string]: unknown;
       }[];
-      direction: ('ltr' | 'rtl') | null;
-      format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+      direction: ("ltr" | "rtl") | null;
+      format: "left" | "start" | "center" | "right" | "end" | "justify" | "";
       indent: number;
       version: number;
     };
@@ -517,7 +522,7 @@ export interface FormBlock {
   } | null;
   id?: string | null;
   blockName?: string | null;
-  blockType: 'formBlock';
+  blockType: "formBlock";
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
@@ -536,7 +541,7 @@ export interface Form {
             defaultValue?: boolean | null;
             id?: string | null;
             blockName?: string | null;
-            blockType: 'checkbox';
+            blockType: "checkbox";
           }
         | {
             name: string;
@@ -545,7 +550,7 @@ export interface Form {
             required?: boolean | null;
             id?: string | null;
             blockName?: string | null;
-            blockType: 'country';
+            blockType: "country";
           }
         | {
             name: string;
@@ -554,7 +559,7 @@ export interface Form {
             required?: boolean | null;
             id?: string | null;
             blockName?: string | null;
-            blockType: 'email';
+            blockType: "email";
           }
         | {
             message?: {
@@ -565,8 +570,15 @@ export interface Form {
                   version: number;
                   [k: string]: unknown;
                 }[];
-                direction: ('ltr' | 'rtl') | null;
-                format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                direction: ("ltr" | "rtl") | null;
+                format:
+                  | "left"
+                  | "start"
+                  | "center"
+                  | "right"
+                  | "end"
+                  | "justify"
+                  | "";
                 indent: number;
                 version: number;
               };
@@ -574,7 +586,7 @@ export interface Form {
             } | null;
             id?: string | null;
             blockName?: string | null;
-            blockType: 'message';
+            blockType: "message";
           }
         | {
             name: string;
@@ -584,7 +596,7 @@ export interface Form {
             required?: boolean | null;
             id?: string | null;
             blockName?: string | null;
-            blockType: 'number';
+            blockType: "number";
           }
         | {
             name: string;
@@ -602,7 +614,7 @@ export interface Form {
             required?: boolean | null;
             id?: string | null;
             blockName?: string | null;
-            blockType: 'select';
+            blockType: "select";
           }
         | {
             name: string;
@@ -611,17 +623,7 @@ export interface Form {
             required?: boolean | null;
             id?: string | null;
             blockName?: string | null;
-            blockType: 'state';
-          }
-        | {
-            name: string;
-            label?: string | null;
-            width?: number | null;
-            defaultValue?: string | null;
-            required?: boolean | null;
-            id?: string | null;
-            blockName?: string | null;
-            blockType: 'text';
+            blockType: "state";
           }
         | {
             name: string;
@@ -631,12 +633,22 @@ export interface Form {
             required?: boolean | null;
             id?: string | null;
             blockName?: string | null;
-            blockType: 'textarea';
+            blockType: "text";
+          }
+        | {
+            name: string;
+            label?: string | null;
+            width?: number | null;
+            defaultValue?: string | null;
+            required?: boolean | null;
+            id?: string | null;
+            blockName?: string | null;
+            blockType: "textarea";
           }
       )[]
     | null;
   submitButtonLabel?: string | null;
-  confirmationType?: ('message' | 'redirect') | null;
+  confirmationType?: ("message" | "redirect") | null;
   confirmationMessage?: {
     root: {
       type: string;
@@ -645,8 +657,8 @@ export interface Form {
         version: number;
         [k: string]: unknown;
       }[];
-      direction: ('ltr' | 'rtl') | null;
-      format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+      direction: ("ltr" | "rtl") | null;
+      format: "left" | "start" | "center" | "right" | "end" | "justify" | "";
       indent: number;
       version: number;
     };
@@ -671,8 +683,9 @@ export interface Form {
               version: number;
               [k: string]: unknown;
             }[];
-            direction: ('ltr' | 'rtl') | null;
-            format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+            direction: ("ltr" | "rtl") | null;
+            format:
+              "left" | "start" | "center" | "right" | "end" | "justify" | "";
             indent: number;
             version: number;
           };
@@ -697,8 +710,8 @@ export interface RichTextBlock {
         version: number;
         [k: string]: unknown;
       }[];
-      direction: ('ltr' | 'rtl') | null;
-      format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+      direction: ("ltr" | "rtl") | null;
+      format: "left" | "start" | "center" | "right" | "end" | "justify" | "";
       indent: number;
       version: number;
     };
@@ -706,7 +719,7 @@ export interface RichTextBlock {
   };
   id?: string | null;
   blockName?: string | null;
-  blockType: 'richText';
+  blockType: "richText";
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
@@ -720,7 +733,7 @@ export interface GalleryBlock {
   }[];
   id?: string | null;
   blockName?: string | null;
-  blockType: 'gallery';
+  blockType: "gallery";
 }
 /**
  * Images for the Gallery block. Use the Media collection instead for hero or content-block images.
@@ -770,7 +783,7 @@ export interface FaqsBlock {
     | null;
   id?: string | null;
   blockName?: string | null;
-  blockType: 'faqs';
+  blockType: "faqs";
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
@@ -780,7 +793,7 @@ export interface HtmlEmbedBlock {
   contentHtml: string;
   id?: string | null;
   blockName?: string | null;
-  blockType: 'htmlEmbed';
+  blockType: "htmlEmbed";
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
@@ -810,14 +823,14 @@ export interface Redirect {
    */
   from: string;
   to?: {
-    type?: ('reference' | 'custom') | null;
+    type?: ("reference" | "custom") | null;
     reference?:
       | ({
-          relationTo: 'pages';
+          relationTo: "pages";
           value: number | Page;
         } | null)
       | ({
-          relationTo: 'blog';
+          relationTo: "blog";
           value: number | Blog;
         } | null);
     url?: string | null;
@@ -850,7 +863,7 @@ export interface User {
       }[]
     | null;
   password?: string | null;
-  collection: 'users';
+  collection: "users";
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
@@ -877,48 +890,48 @@ export interface PayloadLockedDocument {
   id: number;
   document?:
     | ({
-        relationTo: 'pages';
+        relationTo: "pages";
         value: number | Page;
       } | null)
     | ({
-        relationTo: 'blog';
+        relationTo: "blog";
         value: number | Blog;
       } | null)
     | ({
-        relationTo: 'blog-comments';
+        relationTo: "blog-comments";
         value: number | BlogComment;
       } | null)
     | ({
-        relationTo: 'media';
+        relationTo: "media";
         value: number | Media;
       } | null)
     | ({
-        relationTo: 'seo-media';
+        relationTo: "seo-media";
         value: number | SeoMedia;
       } | null)
     | ({
-        relationTo: 'gallery-media';
+        relationTo: "gallery-media";
         value: number | GalleryMedia;
       } | null)
     | ({
-        relationTo: 'forms';
+        relationTo: "forms";
         value: number | Form;
       } | null)
     | ({
-        relationTo: 'form-submissions';
+        relationTo: "form-submissions";
         value: number | FormSubmission;
       } | null)
     | ({
-        relationTo: 'redirects';
+        relationTo: "redirects";
         value: number | Redirect;
       } | null)
     | ({
-        relationTo: 'users';
+        relationTo: "users";
         value: number | User;
       } | null);
   globalSlug?: string | null;
   user: {
-    relationTo: 'users';
+    relationTo: "users";
     value: number | User;
   };
   updatedAt: string;
@@ -931,7 +944,7 @@ export interface PayloadLockedDocument {
 export interface PayloadPreference {
   id: number;
   user: {
-    relationTo: 'users';
+    relationTo: "users";
     value: number | User;
   };
   key?: string | null;
@@ -1524,19 +1537,28 @@ export interface SiteSetting {
     content?: (HtmlEmbedBlock | RichTextBlock)[] | null;
   };
   header?: {
-    blocks?: (HeaderIconsBlock | FooterNavBlock | ContentBlock | MediaBlock | BannerBlock | ThemeToggleBlock)[] | null;
+    blocks?:
+      | (
+          | HeaderIconsBlock
+          | FooterNavBlock
+          | ContentBlock
+          | MediaBlock
+          | BannerBlock
+          | ThemeToggleBlock
+        )[]
+      | null;
     navItems?:
       | {
           link: {
-            type?: ('reference' | 'custom') | null;
+            type?: ("reference" | "custom") | null;
             newTab?: boolean | null;
             reference?:
               | ({
-                  relationTo: 'pages';
+                  relationTo: "pages";
                   value: number | Page;
                 } | null)
               | ({
-                  relationTo: 'blog';
+                  relationTo: "blog";
                   value: number | Blog;
                 } | null);
             url?: string | null;
@@ -1547,7 +1569,16 @@ export interface SiteSetting {
       | null;
   };
   footer?: {
-    blocks?: (FooterIconsBlock | FooterNavBlock | ContentBlock | MediaBlock | BannerBlock | ThemeToggleBlock)[] | null;
+    blocks?:
+      | (
+          | FooterIconsBlock
+          | FooterNavBlock
+          | ContentBlock
+          | MediaBlock
+          | BannerBlock
+          | ThemeToggleBlock
+        )[]
+      | null;
   };
   updatedAt?: string | null;
   createdAt?: string | null;
@@ -1564,18 +1595,28 @@ export interface HeaderIconsBlock {
           viewBox: string;
           path: string;
         };
-        color?: ('neutral' | 'black' | 'blue' | 'green' | 'rose' | 'amber' | 'violet') | null;
+        color?:
+          | (
+              | "neutral"
+              | "black"
+              | "blue"
+              | "green"
+              | "rose"
+              | "amber"
+              | "violet"
+            )
+          | null;
         social?: boolean | null;
         link: {
-          type?: ('reference' | 'custom') | null;
+          type?: ("reference" | "custom") | null;
           newTab?: boolean | null;
           reference?:
             | ({
-                relationTo: 'pages';
+                relationTo: "pages";
                 value: number | Page;
               } | null)
             | ({
-                relationTo: 'blog';
+                relationTo: "blog";
                 value: number | Blog;
               } | null);
           url?: string | null;
@@ -1586,7 +1627,7 @@ export interface HeaderIconsBlock {
     | null;
   id?: string | null;
   blockName?: string | null;
-  blockType: 'headerIcons';
+  blockType: "headerIcons";
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
@@ -1597,15 +1638,15 @@ export interface FooterNavBlock {
   links?:
     | {
         link: {
-          type?: ('reference' | 'custom') | null;
+          type?: ("reference" | "custom") | null;
           newTab?: boolean | null;
           reference?:
             | ({
-                relationTo: 'pages';
+                relationTo: "pages";
                 value: number | Page;
               } | null)
             | ({
-                relationTo: 'blog';
+                relationTo: "blog";
                 value: number | Blog;
               } | null);
           url?: string | null;
@@ -1616,14 +1657,14 @@ export interface FooterNavBlock {
     | null;
   id?: string | null;
   blockName?: string | null;
-  blockType: 'footerNav';
+  blockType: "footerNav";
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "BannerBlock".
  */
 export interface BannerBlock {
-  style: 'info' | 'warning' | 'error' | 'success';
+  style: "info" | "warning" | "error" | "success";
   content: {
     root: {
       type: string;
@@ -1632,8 +1673,8 @@ export interface BannerBlock {
         version: number;
         [k: string]: unknown;
       }[];
-      direction: ('ltr' | 'rtl') | null;
-      format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+      direction: ("ltr" | "rtl") | null;
+      format: "left" | "start" | "center" | "right" | "end" | "justify" | "";
       indent: number;
       version: number;
     };
@@ -1641,7 +1682,7 @@ export interface BannerBlock {
   };
   id?: string | null;
   blockName?: string | null;
-  blockType: 'banner';
+  blockType: "banner";
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
@@ -1650,7 +1691,7 @@ export interface BannerBlock {
 export interface ThemeToggleBlock {
   id?: string | null;
   blockName?: string | null;
-  blockType: 'themeToggle';
+  blockType: "themeToggle";
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
@@ -1664,18 +1705,28 @@ export interface FooterIconsBlock {
           viewBox: string;
           path: string;
         };
-        color?: ('neutral' | 'black' | 'blue' | 'green' | 'rose' | 'amber' | 'violet') | null;
+        color?:
+          | (
+              | "neutral"
+              | "black"
+              | "blue"
+              | "green"
+              | "rose"
+              | "amber"
+              | "violet"
+            )
+          | null;
         social?: boolean | null;
         link: {
-          type?: ('reference' | 'custom') | null;
+          type?: ("reference" | "custom") | null;
           newTab?: boolean | null;
           reference?:
             | ({
-                relationTo: 'pages';
+                relationTo: "pages";
                 value: number | Page;
               } | null)
             | ({
-                relationTo: 'blog';
+                relationTo: "blog";
                 value: number | Blog;
               } | null);
           url?: string | null;
@@ -1686,7 +1737,7 @@ export interface FooterIconsBlock {
     | null;
   id?: string | null;
   blockName?: string | null;
-  blockType: 'footerIcons';
+  blockType: "footerIcons";
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
@@ -1867,7 +1918,7 @@ export interface CollectionsWidget {
   data?: {
     [k: string]: unknown;
   };
-  width: 'full';
+  width: "full";
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
@@ -1875,28 +1926,28 @@ export interface CollectionsWidget {
  */
 export interface CodeBlock {
   language:
-    | 'javascript'
-    | 'typescript'
-    | 'python'
-    | 'java'
-    | 'csharp'
-    | 'cpp'
-    | 'go'
-    | 'rust'
-    | 'php'
-    | 'html'
-    | 'css'
-    | 'json'
-    | 'bash'
-    | 'markdown'
-    | 'sql'
-    | 'yaml'
-    | 'tsx'
-    | 'jsx';
+    | "javascript"
+    | "typescript"
+    | "python"
+    | "java"
+    | "csharp"
+    | "cpp"
+    | "go"
+    | "rust"
+    | "php"
+    | "html"
+    | "css"
+    | "json"
+    | "bash"
+    | "markdown"
+    | "sql"
+    | "yaml"
+    | "tsx"
+    | "jsx";
   code: string;
   id?: string | null;
   blockName?: string | null;
-  blockType: 'code';
+  blockType: "code";
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
@@ -1906,7 +1957,6 @@ export interface Auth {
   [k: string]: unknown;
 }
 
-
-declare module 'payload' {
+declare module "payload" {
   export interface GeneratedTypes extends Config {}
 }

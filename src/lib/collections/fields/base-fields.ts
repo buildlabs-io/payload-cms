@@ -215,11 +215,8 @@ export const generatePreviewPath = ({
         : `/${slug}`,
     previewSecret: appConfig.PREVIEW_SECRET,
   });
-  // console.log(decodeURIComponent(encodedParams.toString()))
-  console.log("generatePreviewPath");
-  console.log(decodeURIComponent(encodedParams.toString()));
+
   return `/preview?${decodeURIComponent(encodedParams.toString())}`;
-  // return `/preview?${encodedParams.toString()}`;
 };
 
 export const makeAdminPreview = (

@@ -136,9 +136,9 @@ export const plugins: Plugin[] = [
         defaultFields.map((field) =>
           "name" in field && field.name === "confirmationMessage"
             ? {
-              ...field,
-              editor: fullLexical,
-            }
+                ...field,
+                editor: fullLexical,
+              }
             : field,
         ),
     },
